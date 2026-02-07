@@ -1,0 +1,146 @@
+@font-face {
+  font-family: 'Barty Allen';
+  src: url('./assets/fonts/BartyAllen.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('./assets/fonts/Quicksand-VariableFont_wght.woff2') format('woff2');
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* FONTS */
+  --font-logo: 'Barty Allen', cursive;
+  --font-main: 'Quicksand', sans-serif;
+
+  /* FONT SIZES */
+  --vc-font-xs: 12px;
+  --vc-font-sm: 14px;
+  --vc-font-md: 16px;
+  --vc-font-lg: 18px;
+  --vc-font-xl: 20px;
+  --vc-font-2xl: 25px;
+  --vc-font-3xl: 32px;
+
+  /* SEMANTIC FONT SIZES */
+  --size-text-body: var(--vc-font-md);
+  --size-text-small: var(--vc-font-sm);
+  --size-title-main: var(--vc-font-3xl);
+  --size-title-section: var(--vc-font-2xl);
+  --size-button: var(--vc-font-lg);
+
+  /* FONT WEIGHTS */
+  --vc-weight-regular: 400;
+  --vc-weight-medium: 500;
+  --vc-weight-bold: 700;
+
+  /* SEMANTIC WEIGHTS */
+  --weight-body: var(--vc-weight-regular);
+  --weight-button: var(--vc-weight-medium);
+  --weight-title: var(--vc-weight-bold);
+
+
+  /* BRAND COLORS */
+  --vc-green-100: #DAEDBF;  /* Background */
+  --vc-green-200: #C7E2A6;  /* Hover */
+  --vc-green-300: #B8D494;  /* Border */
+  --vc-green-800: #4A5D32;  /* Contrast*/
+
+  --vc-red-100: #FFC0C0;
+  --vc-red-200: #FFAAAA;
+  --vc-red-300: #E5A1A1;
+  --vc-red-800: #7A3535;
+
+  --vc-blue-100: #BFE3ED;
+  --vc-blue-200: #A8D9E6;
+  --vc-blue-300: #99C8D6;
+  --vc-blue-800: #2D545E;
+
+  --vc-yellow-100: #EDEBBF;
+  --vc-yellow-200: #E3E0A3;
+  --vc-yellow-300: #D4D08C;
+  --vc-yellow-800: #615E2F;
+
+  --vc-gray-50:  #F9FBF7;
+  --vc-gray-100: #F2F2F2;
+  --vc-gray-300: #CCCCCC;
+  --vc-gray-800: #191919;
+
+  /* BRAND / PRIMARY */
+  --color-primary: var(--vc-green-100);
+  --color-primary-hover: var(--vc-green-200);
+  --color-primary-border: var(--vc-green-300);
+  --color-primary-content: var(--vc-green-800);
+
+  /* BACKGROUNDS */
+  --color-bg-main: var(--vc-gray-50);
+  --color-bg-container: #ffffff;
+  --color-bg-input: var(--vc-gray-100);
+
+  /* TEXT & CONTENT */
+  --color-text-main: var(--vc-gray-800);
+  --color-text-muted: #666666;
+  --color-border: var(--vc-gray-300);
+
+  /* STATES (Feedback) */
+  --color-error: var(--vc-red-100);
+  --color-error-content: var(--vc-red-800);
+  
+  --color-warning: var(--vc-yellow-100);
+  --color-warning-content: var(--vc-yellow-800);
+  
+  --color-info: var(--vc-blue-100);
+  --color-info-content: var(--vc-blue-800);
+
+  /* BORDER WIDTHS */
+  --vc-border-thin: 1px;
+  --vc-border-medium: 2px;
+  --vc-border-thick: 4px;
+
+  /* SEMANTIC BORDERS */
+  --border-width-default: var(--vc-border-thin);
+  --border-width-active: var(--vc-border-medium);
+  --border-width-card: var(--vc-border-thin);
+  
+  /* Layout Tokens */
+  --vc-space-xs: 4px;
+  --vc-space-sm: 8px;
+  --vc-space-md: 16px;
+  --vc-space-lg: 24px;
+  --vc-space-xl: 32px;
+  --vc-space-2xl: 48px;
+
+  /* SEMANTIC PADDING */
+  --pd-button-y: var(--vc-space-sm);
+  --pd-button-x: var(--vc-space-lg);
+  --pd-card: var(--vc-space-md);
+  --pd-screen: var(--vc-space-md);
+  --pd-input: var(--vc-space-sm) var(--vc-space-md);
+
+  /* SEMANTIC MARGIN */
+  --mg-element: var(--vc-space-sm);
+  --mg-card: var(--vc-space-md);
+  --mg-section: var(--vc-space-2xl);
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, button, input , figure, blockquote, dl, dd {
+  font-family: var(--font-main);
+  margin: 0;
+}
+
+.font-logo {
+  font-family: var(--font-logo);
+}
