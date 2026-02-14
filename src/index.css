@@ -47,6 +47,7 @@
 
 
   /* BRAND COLORS */
+  --vc-green-50:  #E9F2DD;
   --vc-green-100: #DAEDBF;  /* Background */
   --vc-green-200: #C7E2A6;  /* Hover */
   --vc-green-300: #B8D494;  /* Border */
@@ -82,6 +83,7 @@
   --color-bg-main: var(--vc-gray-50);
   --color-bg-container: #ffffff;
   --color-bg-input: var(--vc-gray-100);
+  --color-bg-card: var(--vc-green-50);
 
   /* TEXT & CONTENT */
   --color-text-main: var(--vc-gray-800);
@@ -127,6 +129,22 @@
   --mg-element: var(--vc-space-sm);
   --mg-card: var(--vc-space-md);
   --mg-section: var(--vc-space-2xl);
+
+  /* SEMANTIC GAP */
+  --gp-inline-component: var(--vc-space-sm); 
+  --gp-elements: var(--vc-space-md);
+  --gp-form-fields: var(--vc-space-md);
+  --gp-grid-cards: var(--vc-space-lg);
+  --gp-stack-section: var(--vc-space-2xl);
+
+  /* ICON STROKE */
+  --icon-stroke-thin: 1;
+  --icon-stroke-medium: 1.5;
+  --icon-stroke-bold: 2;
+  
+  /* SEMANTIC ICON STROKE */
+  --ic-stroke-default: var(--icon-stroke-medium);
+  --ic-stroke-button: var(--icon-stroke-thin);
 }
 
 body {

@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  padding:var(--pd-screen)
 }
 
 .title {
@@ -15,4 +16,14 @@
 .description {
   font-size: var(--size-text-body);
   font-weight: var(--weight-body);
+}
+
+.container .button {
+  background-color: var(--color-primary);
+  color: var(--color-primary-content);
+  border: var(--color-primary-border) solid var(--border-width-default);
+}
+
+.container .customTitle {
+  font-size: var(--size-title-main);
 }

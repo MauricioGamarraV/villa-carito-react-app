@@ -1,0 +1,6 @@
+.style {
+  color: var(--color-text-main);
+  font-weight: var(--weight-title);
+  font-size: var(--size-title-main);
+  margin-top: var(--mg-element);
+}
