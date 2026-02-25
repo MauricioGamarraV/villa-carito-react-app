@@ -1,0 +1,15 @@
+.style {
+  display: flex;  
+  align-items: center; 
+  justify-content: center;
+  gap: var(--gp-inline-component);
+  color: var(--color-text-main);
+  background-color: var(--vc-gray-50);
+  border-radius: 25px;
+  padding: var(--pd-button-y);
+  border: var(--border-width-default) solid var(--color-text-main);
+  font-weight: var(--weight-button);
+  font-size: var(--size-text-body);
+  width: 100%;
+  margin-top: var(--mg-card);
+}

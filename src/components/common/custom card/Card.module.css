@@ -1,0 +1,12 @@
+.style {
+  background-color: var(--color-bg-card);
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding-block: var(--pd-card);
+  padding-inline: var(--pd-card);
+  color: var(--color-primary-content);
+  border: var(--color-primary-border) solid 0;
+  border-bottom-width: 5px;
+  margin-top: var(--mg-card);
+}
