@@ -27,3 +27,7 @@
 .container .customTitle {
   font-size: var(--size-title-main);
 }
+
+.container .inputTitle {
+  padding: 0;
+}

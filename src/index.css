@@ -123,7 +123,7 @@
   --pd-button-x: var(--vc-space-lg);
   --pd-card: var(--vc-space-md);
   --pd-screen: var(--vc-space-md);
-  --pd-input: var(--vc-space-sm) var(--vc-space-md);
+  --pd-input: var(--vc-space-sm);
 
   /* SEMANTIC MARGIN */
   --mg-element: var(--vc-space-sm);
@@ -145,6 +145,10 @@
   /* SEMANTIC ICON STROKE */
   --ic-stroke-default: var(--icon-stroke-medium);
   --ic-stroke-button: var(--icon-stroke-thin);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
 body {

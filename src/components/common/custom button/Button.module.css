@@ -10,5 +10,6 @@
   border: var(--border-width-default) solid var(--color-text-main);
   font-weight: var(--weight-button);
   font-size: var(--size-text-body);
-  width: 100%
+  width: 100%;
+  margin-top: var(--mg-card);
 }
