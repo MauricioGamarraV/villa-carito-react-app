@@ -40,7 +40,7 @@ function App() {
         className={styles.button}
       >
         <House size={20} strokeWidth={"var(--ic-stroke-default)"} />
-          Login
+          Inicio de sesion
       </Button>
     </div>
   )
